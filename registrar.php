@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <input type="password" name="usuario[password]">
             </div>
             <div class="campo-registro">
-                <input type="submit" value="Entrar">
+                <input type="submit" value="Entrar" class="boton boton-formulario">
             </div>
         </form>
     </div>

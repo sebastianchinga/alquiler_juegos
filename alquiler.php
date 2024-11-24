@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <img src="/imagenes/<?php echo $juego->imagen ?>" alt="Imágen" style="width: 20rem">
         </div>
         <div class="campo">
-            <input type="submit" value="Alquilar juego">
+            <input type="submit" value="Alquilar juego" class="boton boton-formulario">
         </div>
     </form>
 

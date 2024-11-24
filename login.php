@@ -48,7 +48,7 @@ $alertas = Usuario::getAlertas();
                 <input type="password" name="usuario[password]">
             </div>
             <div class="campo">
-                <input type="submit" value="Entrar">
+                <input type="submit" value="Entrar" class="boton boton-formulario">
             </div>
         </form>
     </div>
